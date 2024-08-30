@@ -207,6 +207,9 @@
 (treemacs-start-on-boot)
 
 
+(use-package all-the-icons
+  :if (display-graphic-p))
+
 ;; Themes
 (use-package doom-themes
   :ensure t
